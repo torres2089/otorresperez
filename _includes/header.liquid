@@ -59,7 +59,7 @@
           <!-- Other pages -->
           {% assign sorted_pages = site.pages | sort: 'nav_order' %}
           {% for p in sorted_pages %}
-            {% if p.nav and p.autogen == null %}
+            {% if p.nav and p.autogen == null and p.lang == site.active_lang %}
               {% if p.dropdown %}
                 {% assign has_active_child = false %}
                 {% for child in p.children %}
@@ -68,7 +68,7 @@
                   {% endif %}
                 {% endfor %}
                 <li class="nav-item dropdown {% if page.title == p.title or has_active_child %}active{% endif %}">
-                  <a
+                  
                     class="nav-link dropdown-toggle"
                     href="#"
                     id="navbarDropdown"
@@ -87,7 +87,7 @@
                       {% if child.title == 'divider' %}
                         <div class="dropdown-divider"></div>
                       {% else %}
-                        <a
+                        
                           class="dropdown-item {% if page.title == child.title %}active{% endif %}"
                           href="{% if child.permalink contains '://' %}{{ child.permalink }}{% else %}{{ child.permalink | relative_url }}{% endif %}"
                         >
@@ -154,7 +154,7 @@
               </li>
             {% else %}
               <li class="nav-item dropdown {% if page.title == p.title %}active{% endif %}">
-                <a
+                
                   class="nav-link dropdown-toggle"
                   href="#"
                   id="navbarDropdown"
