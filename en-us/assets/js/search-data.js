@@ -444,11 +444,11 @@ ninja.data = [{
           description: "CIBCM-UCR and CIPROC-UCR",
           section: "Projects",handler: () => {
               window.location.href = "/otorresperez/en-us/projects/2_phytopathology/";
-            },},{id: "projects-project-3-with-very-long-name",
-          title: 'project 3 with very long name',
-          description: "a project that redirects to another website",
+            },},{id: "projects-biological-data-analysis-and-bioinformatics-workflows",
+          title: 'Biological Data Analysis and Bioinformatics Workflows',
+          description: "R Studio and HPC cluster (UCR)",
           section: "Projects",handler: () => {
-              window.location.href = "/otorresperez/en-us/projects/3_project/";
+              window.location.href = "/otorresperez/en-us/projects/3_bioinformatics/";
             },},{id: "projects-project-4",
           title: 'project 4',
           description: "another without an image",
