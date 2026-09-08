@@ -42,11 +42,11 @@ ninja.data = [{
             window.location.href = "/otorresperez/en-us/en-us/projects/";
           },
         },{id: "nav-repositories",
-          title: "repositories",
-          description: "Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories.",
+          title: "Repositories",
+          description: "A selection of GitHub repositories and projects.",
           section: "Navigation menu",
           handler: () => {
-            window.location.href = "/otorresperez/en-us/repositories/";
+            window.location.href = "/otorresperez/en-us/en-us/repositories/";
           },
         },{id: "nav-cv",
           title: "CV",
