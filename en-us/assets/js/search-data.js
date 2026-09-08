@@ -456,16 +456,6 @@ ninja.data = [{
           description: "R Studio and HPC cluster (UCR)",
           section: "Projects",handler: () => {
               window.location.href = "/otorresperez/en-us/projects/3_bioinformatics/";
-            },},{id: "projects-project-7",
-          title: 'project 7',
-          description: "with background image",
-          section: "Projects",handler: () => {
-              window.location.href = "/otorresperez/en-us/projects/7_project/";
-            },},{id: "projects-project-8",
-          title: 'project 8',
-          description: "an other project with a background image and giscus comments",
-          section: "Projects",handler: () => {
-              window.location.href = "/otorresperez/en-us/projects/8_project/";
             },},{id: "projects-project-9",
           title: 'project 9',
           description: "another project with an image 🎉",
@@ -501,6 +491,16 @@ ninja.data = [{
           description: "um projeto sem imagem",
           section: "Projects",handler: () => {
               window.location.href = "/otorresperez/en-us/projects/6_project/";
+            },},{id: "projects-project-7",
+          title: 'project 7',
+          description: "with background image",
+          section: "Projects",handler: () => {
+              window.location.href = "/otorresperez/en-us/projects/7_project/";
+            },},{id: "projects-project-8",
+          title: 'project 8',
+          description: "an other project with a background image and giscus comments",
+          section: "Projects",handler: () => {
+              window.location.href = "/otorresperez/en-us/projects/8_project/";
             },},{
         id: 'social-email',
         title: 'Send an email',
