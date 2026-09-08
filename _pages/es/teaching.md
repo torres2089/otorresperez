@@ -5,7 +5,7 @@ permalink: /experiencia/
 title: Experiencia
 description: Resumen ejecutivo de trayectoria técnica enfocada en calidad poscosecha, trabajo en laboratorios, fitosanidad y análisis de datos.
 nav: true
-nav_order: 6
+nav_order: 1
 ---
 
 
