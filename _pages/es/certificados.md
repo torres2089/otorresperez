@@ -1,9 +1,9 @@
 ---
-page_id: repositories
+page_id: certificados
 layout: page
-permalink: /Certificados/
+permalink: /certificados/
 title: Certificados
-description: Edite o `_data/repositories.yml` e mude as listas `github_users` e `github_repos` para incluir seu próprio perfil do GitHub e repositórios.
+description: Comprobantes digitales de mis capacitaciones complementarias en tecnología, datos e idiomas.
 nav: true
 nav_order: 2
 ---
@@ -14,5 +14,5 @@ Educación continua, certificaciones profesionales y capacitación complementari
 * **[Capacitación en Introducción a Python](/assets/intropython.pdf)**
 * **[Formación / Curso FAO](/assets/fao.pdf)**
 * **[Certificado Prevención y manejo Fusarium](/assets/banano.pdf)**
-* **[Certificado Producción de bioinsumos microbianos en la explotación agrícola ](/assets/bioinsumos.pdf)**
-* **[Certificado Análisis no destructivo de la calidad: Curso de Tecnología de Poscosecha en Frutas y Hortalizas ](/assets/Tecnologia_poscosecha.pdf)**
+* **[Certificado Producción de bioinsumos microbianos en la explotación agrícola](/assets/bioinsumos.pdf)**
+* **[Certificado Análisis no destructivo de la calidad: Curso de Tecnología de Poscosecha en Frutas y Hortalizas](/assets/Tecnologia_poscosecha.pdf)**
