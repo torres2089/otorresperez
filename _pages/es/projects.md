@@ -1,7 +1,7 @@
 ---
 page_id: projects
 layout: page
-title: Proyetos
+title: Proyectos
 permalink: /projects/
 description: A continuación, se presentan los principales proyectos de investigación aplicada, flujos de trabajo bioinformáticos y ensayos técnicos en los que he participado, enfocados en la calidad agroalimentaria, la sanidad vegetal y la optimización poscosecha.
 nav: true
