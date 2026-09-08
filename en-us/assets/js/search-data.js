@@ -456,11 +456,6 @@ ninja.data = [{
           description: "R Studio and HPC cluster (UCR)",
           section: "Projects",handler: () => {
               window.location.href = "/otorresperez/en-us/projects/3_bioinformatics/";
-            },},{id: "projects-project-4",
-          title: 'project 4',
-          description: "another without an image",
-          section: "Projects",handler: () => {
-              window.location.href = "/otorresperez/en-us/projects/4_project/";
             },},{id: "projects-project-5",
           title: 'project 5',
           description: "a project with a background image",
@@ -501,6 +496,11 @@ ninja.data = [{
           description: "R Studio y clúster HPC (UCR)",
           section: "Projects",handler: () => {
               window.location.href = "/otorresperez/en-us/projects/3_bioinformatica/";
+            },},{id: "projects-projeto-4",
+          title: 'projeto 4',
+          description: "outro sem imagem",
+          section: "Projects",handler: () => {
+              window.location.href = "/otorresperez/en-us/projects/4_project/";
             },},{
         id: 'social-email',
         title: 'Send an email',
