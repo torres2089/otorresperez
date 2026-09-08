@@ -1,12 +1,11 @@
 ---
 page_id: projects
 layout: page
-title: projects
-permalink: /projects/
-description: A growing collection of your cool projects.
+title: Projects
+permalink: /en-us/projects/
+description: Applied research projects, bioinformatics workflows, and technical trials focused on agrifood quality, plant health, and postharvest optimization.
 nav: true
 nav_order: 3
-display_categories: [work, fun]
 horizontal: false
 ---
 
