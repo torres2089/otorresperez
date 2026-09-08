@@ -36,4 +36,4 @@ nav_order: 1
 
 ---
 
-*Nota: Para ver el desglose completo de funciones, fechas exactas, podés dirigirte a la pestaña [CV](/cv/) en el menú superior.*
+*Nota: Para ver el desglose completo de funciones, fechas exactas, podés dirigirte a la pestaña [CV]({{ '/cv/' | relative_url }}) en el menú superior.*
