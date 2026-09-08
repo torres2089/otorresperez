@@ -55,21 +55,7 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/otorresperez/fr-ca/people/";
           },
-        },{id: "dropdown-bookshelf",
-              title: "bookshelf",
-              description: "",
-              section: "déroulant",
-              handler: () => {
-                window.location.href = "/otorresperez/fr-ca/books/";
-              },
-            },{id: "dropdown-blog",
-              title: "blog",
-              description: "",
-              section: "déroulant",
-              handler: () => {
-                window.location.href = "/otorresperez/fr-ca/blog/";
-              },
-            },{id: "post-a-post-with-plotly-js",
+        },{id: "post-a-post-with-plotly-js",
         
           title: "a post with plotly.js",
         
