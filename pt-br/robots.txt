@@ -1,4 +1,0 @@
-User-agent: *
-Disallow:
-
-Sitemap: https://torres2089.github.io/otorresperez/sitemap.xml
