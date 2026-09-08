@@ -20,7 +20,14 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/otorresperez/";
     },
-  },{id: "nav-experiencia",
+  },{id: "nav-experience",
+          title: "Experience",
+          description: "Executive summary of technical background focused on postharvest quality, laboratory work, plant health, and data analysis.",
+          section: "",
+          handler: () => {
+            window.location.href = "/otorresperez/en-us/experiencia/";
+          },
+        },{id: "nav-experiencia",
           title: "Experiencia",
           description: "Resumen ejecutivo de trayectoria técnica enfocada en calidad poscosecha, trabajo en laboratorios, fitosanidad y análisis de datos.",
           section: "",
@@ -47,13 +54,6 @@ ninja.data = [{
           section: "",
           handler: () => {
             window.location.href = "/otorresperez/cv/";
-          },
-        },{id: "nav-teaching",
-          title: "teaching",
-          description: "Materials for courses you taught. Replace this text with your description.",
-          section: "",
-          handler: () => {
-            window.location.href = "/otorresperez/teaching/";
           },
         },{id: "post-a-post-with-plotly-js",
         
