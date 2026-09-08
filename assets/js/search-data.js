@@ -496,6 +496,11 @@ ninja.data = [{
           description: "CIBCM-UCR y CIPROC-UCR",
           section: "",handler: () => {
               window.location.href = "/otorresperez/projects/2_fitopatologia/";
+            },},{id: "projects-análisis-de-datos-biológicos-y-flujos-de-trabajo-bioinformáticos",
+          title: 'Análisis de Datos Biológicos y Flujos de Trabajo Bioinformáticos',
+          description: "R Studio y clúster HPC (UCR)",
+          section: "",handler: () => {
+              window.location.href = "/otorresperez/projects/3_bioinformatica/";
             },},{
         id: 'social-email',
         title: '',
