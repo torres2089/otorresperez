@@ -491,6 +491,11 @@ ninja.data = [{
           description: "Laboratorio de Tecnología Poscosecha, Universidad de Costa Rica",
           section: "",handler: () => {
               window.location.href = "/otorresperez/projects/1_poscosecha/";
+            },},{id: "projects-control-microbiológico-y-ensayos-de-fitopatología-aplicada",
+          title: 'Control Microbiológico y Ensayos de Fitopatología Aplicada',
+          description: "CIBCM-UCR y CIPROC-UCR",
+          section: "",handler: () => {
+              window.location.href = "/otorresperez/projects/2_fitopatologia/";
             },},{
         id: 'social-email',
         title: '',
