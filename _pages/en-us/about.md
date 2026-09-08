@@ -29,6 +29,4 @@ latest_posts:
 Ingeniero Agrónomo graduado de la Universidad de Costa Rica (UCR). Focused on postharvest technology, molecular biology, agricultural microbiology, bioinformatics, and precision agriculture. Interested in connecting data science with sustainability in the field.
 
 
-
-
-inkedIn, Google Scholar, or just disable all of them.
+---
