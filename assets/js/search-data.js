@@ -14,76 +14,48 @@ const ninja = document.querySelector('ninja-keys');
 
 // add the home and posts menu items
 ninja.data = [{
-    id: "nav-sobre",
-    title: "sobre",
+    id: "nav-sobre-mí",
+    title: "sobre mí",
     section: "",
     handler: () => {
       window.location.href = "/otorresperez/";
     },
-  },{id: "nav-blog",
-          title: "blog",
-          description: "um tema simples para acadêmicos",
-          section: "",
-          handler: () => {
-            window.location.href = "/otorresperez/blog/";
-          },
-        },{id: "nav-publicações",
-          title: "publicações",
-          description: "publicações por categoria em ordem cronológica reversa. gerado pelo jekyll-scholar.",
-          section: "",
-          handler: () => {
-            window.location.href = "/otorresperez/publications/";
-          },
-        },{id: "nav-projetos",
-          title: "projetos",
-          description: "Uma crescente coleção de seus projetos interessantes.",
+  },{id: "nav-proyetos",
+          title: "Proyetos",
+          description: "A continuación, se presentan los principales proyectos de investigación aplicada, flujos de trabajo bioinformáticos y ensayos técnicos en los que he participado, enfocados en la calidad agroalimentaria, la sanidad vegetal y la optimización poscosecha.",
           section: "",
           handler: () => {
             window.location.href = "/otorresperez/projects/";
           },
-        },{id: "nav-repositórios",
-          title: "repositórios",
-          description: "Edite o `_data/repositories.yml` e mude as listas `github_users` e `github_repos` para incluir seu próprio perfil do GitHub e repositórios.",
-          section: "",
-          handler: () => {
-            window.location.href = "/otorresperez/repositories/";
-          },
         },{id: "nav-cv",
-          title: "cv",
-          description: "Esta é uma descrição da página. Você pode modificá-la em &#39;_pages/cv.md&#39;. Também pode alterar ou remover o botão no topo de download de pdf.",
+          title: "CV",
+          description: "Mi currículum vitae completo estructurado para lectura rápida.",
           section: "",
           handler: () => {
             window.location.href = "/otorresperez/cv/";
           },
-        },{id: "nav-ensino",
-          title: "ensino",
-          description: "Materiais de cursos que você ministrou. Substitua esse texto com sua descrição.",
+        },{id: "nav-certificados",
+          title: "Certificados",
+          description: "Edite o `_data/repositories.yml` e mude as listas `github_users` e `github_repos` para incluir seu próprio perfil do GitHub e repositórios.",
           section: "",
           handler: () => {
-            window.location.href = "/otorresperez/teaching/";
+            window.location.href = "/otorresperez/Certificados/";
           },
-        },{id: "nav-membros",
-          title: "membros",
-          description: "membros do grupo de pesquisa ou laboratório",
+        },{id: "nav-experiencia",
+          title: "Experiencia",
+          description: "Resumen ejecutivo de trayectoria técnica enfocada en calidad poscosecha, trabajo en laboratorios, fitosanidad y análisis de datos.",
+          section: "",
+          handler: () => {
+            window.location.href = "/otorresperez/experiencia/";
+          },
+        },{id: "nav-people",
+          title: "people",
+          description: "members of the lab or group",
           section: "",
           handler: () => {
             window.location.href = "/otorresperez/people/";
           },
-        },{id: "dropdown-estante-de-livros",
-              title: "estante de livros",
-              description: "",
-              section: "",
-              handler: () => {
-                window.location.href = "/otorresperez/books/";
-              },
-            },{id: "dropdown-blog",
-              title: "blog",
-              description: "",
-              section: "",
-              handler: () => {
-                window.location.href = "/otorresperez/blog/";
-              },
-            },{id: "post-a-post-with-plotly-js",
+        },{id: "post-a-post-with-plotly-js",
         
           title: "a post with plotly.js",
         
