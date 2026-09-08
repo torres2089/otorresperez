@@ -27,6 +27,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/otorresperez/experiencia/";
           },
+        },{id: "nav-certificados",
+          title: "Certificados",
+          description: "Edite o `_data/repositories.yml` e mude as listas `github_users` e `github_repos` para incluir seu próprio perfil do GitHub e repositórios.",
+          section: "",
+          handler: () => {
+            window.location.href = "/otorresperez/Certificados/";
+          },
         },{id: "nav-proyectos",
           title: "Proyectos",
           description: "A continuación, se presentan los principales proyectos de investigación aplicada, flujos de trabajo bioinformáticos y ensayos técnicos en los que he participado, enfocados en la calidad agroalimentaria, la sanidad vegetal y la optimización poscosecha.",
@@ -40,13 +47,6 @@ ninja.data = [{
           section: "",
           handler: () => {
             window.location.href = "/otorresperez/cv/";
-          },
-        },{id: "nav-certificados",
-          title: "Certificados",
-          description: "Edite o `_data/repositories.yml` e mude as listas `github_users` e `github_repos` para incluir seu próprio perfil do GitHub e repositórios.",
-          section: "",
-          handler: () => {
-            window.location.href = "/otorresperez/Certificados/";
           },
         },{id: "post-a-post-with-plotly-js",
         
