@@ -3,10 +3,10 @@
 # -----------------------------------------------------------------------------
 
 title: blank # the website title (if blank, full name will be used instead)
-first_name: You
-middle_name: R.
-last_name: Name
-keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
+first_name: Óscar Fabricio
+middle_name: ""
+last_name: Torres Pérez
+keywords: agronomía, poscosecha, bioinformática, microbiología agrícola, UCR, Costa Rica
 icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://torres2089.github.io # the base hostname & protocol for your site
@@ -283,8 +283,8 @@ display_categories: ["external-services"] # these categories will be displayed o
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  last_name: [Torres Pérez]
+  first_name: [Óscar Fabricio, O.F]
 
   style: apa
   locale: en
