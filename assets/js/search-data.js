@@ -20,7 +20,14 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/otorresperez/";
     },
-  },{id: "nav-proyectos",
+  },{id: "nav-experiencia",
+          title: "Experiencia",
+          description: "Resumen ejecutivo de trayectoria técnica enfocada en calidad poscosecha, trabajo en laboratorios, fitosanidad y análisis de datos.",
+          section: "",
+          handler: () => {
+            window.location.href = "/otorresperez/experiencia/";
+          },
+        },{id: "nav-proyectos",
           title: "Proyectos",
           description: "A continuación, se presentan los principales proyectos de investigación aplicada, flujos de trabajo bioinformáticos y ensayos técnicos en los que he participado, enfocados en la calidad agroalimentaria, la sanidad vegetal y la optimización poscosecha.",
           section: "",
@@ -40,13 +47,6 @@ ninja.data = [{
           section: "",
           handler: () => {
             window.location.href = "/otorresperez/Certificados/";
-          },
-        },{id: "nav-experiencia",
-          title: "Experiencia",
-          description: "Resumen ejecutivo de trayectoria técnica enfocada en calidad poscosecha, trabajo en laboratorios, fitosanidad y análisis de datos.",
-          section: "",
-          handler: () => {
-            window.location.href = "/otorresperez/experiencia/";
           },
         },{id: "post-a-post-with-plotly-js",
         
