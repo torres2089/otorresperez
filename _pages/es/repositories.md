@@ -5,7 +5,7 @@ permalink: /Certificados/
 title: Certificados
 description: Edite o `_data/repositories.yml` e mude as listas `github_users` e `github_repos` para incluir seu próprio perfil do GitHub e repositórios.
 nav: true
-nav_order: 4
+nav_order: 2
 ---
 Educación continua, certificaciones profesionales y capacitación complementaria técnica:
 
