@@ -46,7 +46,7 @@ ninja.data = [{
           description: "A continuación, se presentan los principales proyectos de investigación aplicada, flujos de trabajo bioinformáticos y ensayos técnicos en los que he participado, enfocados en la calidad agroalimentaria, la sanidad vegetal y la optimización poscosecha.",
           section: "",
           handler: () => {
-            window.location.href = "/otorresperez/projects/";
+            window.location.href = "/otorresperez/proyectos/";
           },
         },{id: "nav-cv",
           title: "CV",
