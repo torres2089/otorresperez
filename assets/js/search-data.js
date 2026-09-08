@@ -441,21 +441,21 @@ ninja.data = [{
             },},{id: "news-um-anúncio-simples-em-uma-linha-com-markdown-emoji-sparkles-smile",
           title: 'Um anúncio simples em uma linha com Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "",},{id: "projects-projeto-1",
-          title: 'projeto 1',
-          description: "com imagem de fundo",
+          section: "",},{id: "projects-postharvest-quality-assessment-in-tropical-fruits",
+          title: 'Postharvest Quality Assessment in Tropical Fruits',
+          description: "Postharvest Technology Laboratory, University of Costa Rica",
           section: "",handler: () => {
-              window.location.href = "/otorresperez/projects/1_project/";
-            },},{id: "projects-projeto-2",
-          title: 'projeto 2',
-          description: "um projeto com imagem de fundo e comentários do giscus",
+              window.location.href = "/otorresperez/projects/1_postharvest/";
+            },},{id: "projects-microbiological-control-and-applied-phytopathology-trials",
+          title: 'Microbiological Control and Applied Phytopathology Trials',
+          description: "CIBCM-UCR and CIPROC-UCR",
           section: "",handler: () => {
-              window.location.href = "/otorresperez/projects/2_project/";
-            },},{id: "projects-projeto-3-com-um-nome-bem-longo",
-          title: 'projeto 3 com um nome bem longo',
-          description: "um projeto que redireciona pra outro website",
+              window.location.href = "/otorresperez/projects/2_phytopathology/";
+            },},{id: "projects-biological-data-analysis-and-bioinformatics-workflows",
+          title: 'Biological Data Analysis and Bioinformatics Workflows',
+          description: "R Studio and HPC cluster (UCR)",
           section: "",handler: () => {
-              window.location.href = "/otorresperez/projects/3_project/";
+              window.location.href = "/otorresperez/projects/3_bioinformatics/";
             },},{id: "projects-evaluación-de-calidad-poscosecha-en-frutas-tropicales",
           title: 'Evaluación de Calidad Poscosecha en Frutas Tropicales',
           description: "Laboratorio de Tecnología Poscosecha, Universidad de Costa Rica",
@@ -471,36 +471,6 @@ ninja.data = [{
           description: "R Studio y clúster HPC (UCR)",
           section: "",handler: () => {
               window.location.href = "/otorresperez/projects/3_bioinformatica/";
-            },},{id: "projects-projeto-4",
-          title: 'projeto 4',
-          description: "outro sem imagem",
-          section: "",handler: () => {
-              window.location.href = "/otorresperez/projects/4_project/";
-            },},{id: "projects-projeto-5",
-          title: 'projeto 5',
-          description: "um projeto com imagem de fundo",
-          section: "",handler: () => {
-              window.location.href = "/otorresperez/projects/5_project/";
-            },},{id: "projects-projeto-6",
-          title: 'projeto 6',
-          description: "um projeto sem imagem",
-          section: "",handler: () => {
-              window.location.href = "/otorresperez/projects/6_project/";
-            },},{id: "projects-project-7",
-          title: 'project 7',
-          description: "with background image",
-          section: "",handler: () => {
-              window.location.href = "/otorresperez/projects/7_project/";
-            },},{id: "projects-project-8",
-          title: 'project 8',
-          description: "an other project with a background image and giscus comments",
-          section: "",handler: () => {
-              window.location.href = "/otorresperez/projects/8_project/";
-            },},{id: "projects-project-9",
-          title: 'project 9',
-          description: "another project with an image 🎉",
-          section: "",handler: () => {
-              window.location.href = "/otorresperez/projects/9_project/";
             },},{
         id: 'social-email',
         title: '',

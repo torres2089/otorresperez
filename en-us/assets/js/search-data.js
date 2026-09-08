@@ -471,36 +471,6 @@ ninja.data = [{
           description: "R Studio y clúster HPC (UCR)",
           section: "Projects",handler: () => {
               window.location.href = "/otorresperez/en-us/projects/3_bioinformatica/";
-            },},{id: "projects-projeto-4",
-          title: 'projeto 4',
-          description: "outro sem imagem",
-          section: "Projects",handler: () => {
-              window.location.href = "/otorresperez/en-us/projects/4_project/";
-            },},{id: "projects-projeto-5",
-          title: 'projeto 5',
-          description: "um projeto com imagem de fundo",
-          section: "Projects",handler: () => {
-              window.location.href = "/otorresperez/en-us/projects/5_project/";
-            },},{id: "projects-projeto-6",
-          title: 'projeto 6',
-          description: "um projeto sem imagem",
-          section: "Projects",handler: () => {
-              window.location.href = "/otorresperez/en-us/projects/6_project/";
-            },},{id: "projects-project-7",
-          title: 'project 7',
-          description: "with background image",
-          section: "Projects",handler: () => {
-              window.location.href = "/otorresperez/en-us/projects/7_project/";
-            },},{id: "projects-project-8",
-          title: 'project 8',
-          description: "an other project with a background image and giscus comments",
-          section: "Projects",handler: () => {
-              window.location.href = "/otorresperez/en-us/projects/8_project/";
-            },},{id: "projects-project-9",
-          title: 'project 9',
-          description: "another project with an image 🎉",
-          section: "Projects",handler: () => {
-              window.location.href = "/otorresperez/en-us/projects/9_project/";
             },},{
         id: 'social-email',
         title: 'Send an email',
