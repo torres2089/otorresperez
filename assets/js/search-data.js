@@ -456,16 +456,6 @@ ninja.data = [{
           description: "um projeto que redireciona pra outro website",
           section: "",handler: () => {
               window.location.href = "/otorresperez/projects/3_project/";
-            },},{id: "projects-projeto-5",
-          title: 'projeto 5',
-          description: "um projeto com imagem de fundo",
-          section: "",handler: () => {
-              window.location.href = "/otorresperez/projects/5_project/";
-            },},{id: "projects-projeto-6",
-          title: 'projeto 6',
-          description: "um projeto sem imagem",
-          section: "",handler: () => {
-              window.location.href = "/otorresperez/projects/6_project/";
             },},{id: "projects-project-7",
           title: 'project 7',
           description: "with background image",
@@ -501,6 +491,16 @@ ninja.data = [{
           description: "outro sem imagem",
           section: "",handler: () => {
               window.location.href = "/otorresperez/projects/4_project/";
+            },},{id: "projects-projeto-5",
+          title: 'projeto 5',
+          description: "um projeto com imagem de fundo",
+          section: "",handler: () => {
+              window.location.href = "/otorresperez/projects/5_project/";
+            },},{id: "projects-projeto-6",
+          title: 'projeto 6',
+          description: "um projeto sem imagem",
+          section: "",handler: () => {
+              window.location.href = "/otorresperez/projects/6_project/";
             },},{
         id: 'social-email',
         title: '',
