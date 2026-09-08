@@ -439,11 +439,11 @@ ninja.data = [{
           description: "Postharvest Technology Laboratory, University of Costa Rica",
           section: "Projects",handler: () => {
               window.location.href = "/otorresperez/en-us/projects/1_postharvest/";
-            },},{id: "projects-project-2",
-          title: 'project 2',
-          description: "a project with a background image and giscus comments",
+            },},{id: "projects-microbiological-control-and-applied-phytopathology-trials",
+          title: 'Microbiological Control and Applied Phytopathology Trials',
+          description: "CIBCM-UCR and CIPROC-UCR",
           section: "Projects",handler: () => {
-              window.location.href = "/otorresperez/en-us/projects/2_project/";
+              window.location.href = "/otorresperez/en-us/projects/2_phytopathology/";
             },},{id: "projects-project-3-with-very-long-name",
           title: 'project 3 with very long name',
           description: "a project that redirects to another website",
