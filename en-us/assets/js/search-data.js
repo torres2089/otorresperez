@@ -20,7 +20,14 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/otorresperez/en-us/";
     },
-  },{id: "nav-projects",
+  },{id: "nav-experiencia",
+          title: "Experiencia",
+          description: "Resumen ejecutivo de trayectoria técnica enfocada en calidad poscosecha, trabajo en laboratorios, fitosanidad y análisis de datos.",
+          section: "Navigation menu",
+          handler: () => {
+            window.location.href = "/otorresperez/en-us/experiencia/";
+          },
+        },{id: "nav-projects",
           title: "projects",
           description: "A growing collection of your cool projects.",
           section: "Navigation menu",
