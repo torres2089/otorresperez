@@ -9,7 +9,7 @@ profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
-   more_info: >
+  more_info: >
     <p>Costa Rica</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
@@ -27,6 +27,3 @@ latest_posts:
 ---
 
 Ingeniero Agrónomo graduado de la Universidad de Costa Rica (UCR). Focused on postharvest technology, molecular biology, agricultural microbiology, bioinformatics, and precision agriculture. Interested in connecting data science with sustainability in the field.
-
-
----
