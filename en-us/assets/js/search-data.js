@@ -34,6 +34,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/otorresperez/en-us/experiencia/";
           },
+        },{id: "nav-certificados",
+          title: "Certificados",
+          description: "Comprobantes digitales de mis capacitaciones complementarias en tecnología, datos e idiomas.",
+          section: "Navigation menu",
+          handler: () => {
+            window.location.href = "/otorresperez/en-us/certificados/";
+          },
         },{id: "nav-projects",
           title: "Projects",
           description: "Applied research projects, bioinformatics workflows, and technical trials focused on agrifood quality, plant health, and postharvest optimization.",

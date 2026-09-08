@@ -36,10 +36,10 @@ ninja.data = [{
           },
         },{id: "nav-certificados",
           title: "Certificados",
-          description: "Edite o `_data/repositories.yml` e mude as listas `github_users` e `github_repos` para incluir seu próprio perfil do GitHub e repositórios.",
+          description: "Comprobantes digitales de mis capacitaciones complementarias en tecnología, datos e idiomas.",
           section: "",
           handler: () => {
-            window.location.href = "/otorresperez/Certificados/";
+            window.location.href = "/otorresperez/certificados/";
           },
         },{id: "nav-proyectos",
           title: "Proyectos",
@@ -54,6 +54,13 @@ ninja.data = [{
           section: "",
           handler: () => {
             window.location.href = "/otorresperez/cv/";
+          },
+        },{id: "nav-repositories",
+          title: "Repositories",
+          description: "A selection of GitHub repositories and projects.",
+          section: "",
+          handler: () => {
+            window.location.href = "/otorresperez/en-us/repositories/";
           },
         },{id: "post-a-post-with-plotly-js",
         
