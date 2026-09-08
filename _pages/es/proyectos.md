@@ -2,7 +2,7 @@
 page_id: projects
 layout: page
 title: Proyectos
-permalink: /projects/
+permalink: /proyectos/
 description: A continuación, se presentan los principales proyectos de investigación aplicada, flujos de trabajo bioinformáticos y ensayos técnicos en los que he participado, enfocados en la calidad agroalimentaria, la sanidad vegetal y la optimización poscosecha.
 nav: true
 nav_order: 3
@@ -17,7 +17,7 @@ horizontal: false
       <a id="{{ site.data[site.active_lang].strings.categories[category] }}" href=".#{{ site.data[site.active_lang].strings.categories[category] }}">
         <h2 class="category">{{ site.data[site.active_lang].strings.categories[category] }}</h2>
       </a>
-      {% assign categorized_projects = site.projects | where: "category", category %}
+      {% assign categorized_projects = site.projects | where: "category", category | where: "lang", site.active_lang %}
       {% assign sorted_projects = categorized_projects | sort: "importance" %}
       <!-- Generate cards for each project -->
       {% if page.horizontal %}
@@ -38,7 +38,8 @@ horizontal: false
     {% endfor %}
   {% else %}
     <!-- Display projects without categories -->
-    {% assign sorted_projects = site.projects | sort: "importance" %}
+    {% assign lang_projects = site.projects | where: "lang", site.active_lang %}
+    {% assign sorted_projects = lang_projects | sort: "importance" %}
     <!-- Generate cards for each project -->
     {% if page.horizontal %}
       <div class="container">
