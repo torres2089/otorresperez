@@ -35,11 +35,11 @@ ninja.data = [{
             window.location.href = "/otorresperez/en-us/experiencia/";
           },
         },{id: "nav-projects",
-          title: "projects",
-          description: "A growing collection of your cool projects.",
+          title: "Projects",
+          description: "Applied research projects, bioinformatics workflows, and technical trials focused on agrifood quality, plant health, and postharvest optimization.",
           section: "Navigation menu",
           handler: () => {
-            window.location.href = "/otorresperez/en-us/projects/";
+            window.location.href = "/otorresperez/en-us/en-us/projects/";
           },
         },{id: "nav-repositories",
           title: "repositories",
