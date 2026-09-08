@@ -456,11 +456,6 @@ ninja.data = [{
           description: "um projeto que redireciona pra outro website",
           section: "",handler: () => {
               window.location.href = "/otorresperez/projects/3_project/";
-            },},{id: "projects-project-9",
-          title: 'project 9',
-          description: "another project with an image 🎉",
-          section: "",handler: () => {
-              window.location.href = "/otorresperez/projects/9_project/";
             },},{id: "projects-evaluación-de-calidad-poscosecha-en-frutas-tropicales",
           title: 'Evaluación de Calidad Poscosecha en Frutas Tropicales',
           description: "Laboratorio de Tecnología Poscosecha, Universidad de Costa Rica",
@@ -501,6 +496,11 @@ ninja.data = [{
           description: "an other project with a background image and giscus comments",
           section: "",handler: () => {
               window.location.href = "/otorresperez/projects/8_project/";
+            },},{id: "projects-project-9",
+          title: 'project 9',
+          description: "another project with an image 🎉",
+          section: "",handler: () => {
+              window.location.href = "/otorresperez/projects/9_project/";
             },},{
         id: 'social-email',
         title: '',

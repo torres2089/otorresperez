@@ -456,11 +456,6 @@ ninja.data = [{
           description: "R Studio and HPC cluster (UCR)",
           section: "Projects",handler: () => {
               window.location.href = "/otorresperez/en-us/projects/3_bioinformatics/";
-            },},{id: "projects-project-9",
-          title: 'project 9',
-          description: "another project with an image 🎉",
-          section: "Projects",handler: () => {
-              window.location.href = "/otorresperez/en-us/projects/9_project/";
             },},{id: "projects-evaluación-de-calidad-poscosecha-en-frutas-tropicales",
           title: 'Evaluación de Calidad Poscosecha en Frutas Tropicales',
           description: "Laboratorio de Tecnología Poscosecha, Universidad de Costa Rica",
@@ -501,6 +496,11 @@ ninja.data = [{
           description: "an other project with a background image and giscus comments",
           section: "Projects",handler: () => {
               window.location.href = "/otorresperez/en-us/projects/8_project/";
+            },},{id: "projects-project-9",
+          title: 'project 9',
+          description: "another project with an image 🎉",
+          section: "Projects",handler: () => {
+              window.location.href = "/otorresperez/en-us/projects/9_project/";
             },},{
         id: 'social-email',
         title: 'Send an email',
