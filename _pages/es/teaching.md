@@ -1,5 +1,5 @@
 ---
-page_id: teaching
+page_id: experiencia
 layout: page
 permalink: /experiencia/
 title: Experiencia
@@ -34,8 +34,6 @@ nav_order: 1
 * **Tecnología y Datos:** Bioinformática (QIIME 2, DADA2), flujos de análisis estadístico en R, entornos Singularity y diseño científico (BioRender y Canva).
 * **Logística:** Licencia de conducir B1 activa y disponibilidad para viajar.
 
----
-* Cuento con experiencia en uso de herramientas como R studio y análisis bionformáticos.
 ---
 
 *Nota: Para ver el desglose completo de funciones, fechas exactas, podés dirigirte a la pestaña [CV](/cv/) en el menú superior.*
